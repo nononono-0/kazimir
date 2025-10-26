@@ -1659,36 +1659,29 @@ body{
     top: 5286px;
     left: 0px;
     background-color: black;
-    width: 1290px;
+    width: 1280px;
     height: 158px;
 }
-.footer-information {
-    position: absolute;
+.footer1 {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 33px;
+    margin-left: 41px;
+    margin-right: 56px;
+}
+#footer-information {
     font-size: 39px;
     font-weight: 300;
     line-height: 1.07;
     color: white;
 }
-#footer-information1 {
-    top: 33px;
-    left: 41px;
-}
-#footer-information2 {
-    top: 33px;
-    left: 540px;
-}
-#footer-information3 {
-    top: 33px;
-    left: 1138px;
-}
 .footer-letter7 {
-    position: absolute;
+    display: flex;
     font-size: 97px;
     font-weight: 300;
     line-height: 1.07; 
     color: white;
-    top: 84px;
-    left: 162px;
-    width: 950px;
-    height: 74px;
+    justify-content: center;
+    margin-top: 11px;
 }
