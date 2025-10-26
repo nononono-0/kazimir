@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Light.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Light Italic.otf') format('opentype');
+    font-weight: 150;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir.otf') format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Light.otf') format('opentype');
+    font-weight: 250;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Medium.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Medium Italic.otf') format('opentype');
+    font-weight: 350;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Bold.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Bold Italic.otf') format('opentype');
+    font-weight: 450;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Black.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Black Italic.otf') format('opentype');
+    font-weight: 550;
+}

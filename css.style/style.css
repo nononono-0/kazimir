@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Kazimir';
     src: url('font/Kazimir Light.otf') format('opentype');
     font-weight: 100;
@@ -47,8 +47,10 @@
     font-family: 'Kazimir';
     src: url('font/Kazimir Black Italic.otf') format('opentype');
     font-weight: 550;
-}
-@keyframes wobble {
+} */
+@import url(font.css);
+@import url(animation.css);
+/* @keyframes wobble {
     0% { transform: rotate(-3deg); }
     50% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
@@ -94,8 +96,7 @@
         top: 5281px;
         left: 300px;
     }
-}
-
+} */
 * {
     margin: 0;
     padding: 0;
