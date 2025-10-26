@@ -1,0 +1,1694 @@
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Light.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Light Italic.otf') format('opentype');
+    font-weight: 150;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir.otf') format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Light.otf') format('opentype');
+    font-weight: 250;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Medium.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Medium Italic.otf') format('opentype');
+    font-weight: 350;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Bold.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Bold Italic.otf') format('opentype');
+    font-weight: 450;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Black.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Kazimir';
+    src: url('font/Kazimir Black Italic.otf') format('opentype');
+    font-weight: 550;
+}
+@keyframes wobble {
+    0% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+@keyframes wobble1 {
+    0% { transform: rotate(3deg); }
+    50% { transform: rotate(-3deg); }
+    100% { transform: rotate(3deg); }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+@keyframes bounce1 {
+    0%, 100% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+@keyframes ligat {
+    0% {
+        top: 4650px;
+        left: 850px;
+    }
+    20% {
+        transform: rotate(-12deg);
+        top: 4915px;
+        left: 855px;
+    }
+    80% {
+        top: 5028px;
+        left: 315px;
+        transform: rotate(-12deg);
+    }
+    100% {
+        transform: rotate(-38deg);
+        top: 5281px;
+        left: 300px;
+    }
+    /* 100% {
+        top: 5281px;
+    } */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Kazimir', sans-serif;
+}
+body{
+    width: 1280px;
+    height: 5443px;
+    overflow-x: hidden;
+    background-color: #FFF9E9;
+}
+.header1 {
+    position: absolute;
+    font-size: 175px;
+    line-height: 1.08;
+    font-weight: 100;
+}
+#capital-letter-K {
+    top: 241px;
+    left: 235px;
+}
+#capital-letter-a {
+    top: 239px;
+    left: 364px;
+}
+#capital-letter-z {
+    top: 59px;
+    left: 485px;
+}
+#capital-letter-i {
+    top: 108px;
+    left: 611px;
+}
+#capital-letter-m {
+    top: 108px;
+    left: 668px;
+}
+#capital-letter-i2 {
+    top: 108px;
+    left: 820px;
+}
+#capital-letter-r {
+    top: 171px;
+    left: 922px;
+    rotate: 25deg;
+}
+.block1 {
+    position: absolute;
+    top: 216px;
+    left: 468px;
+    background-color: #405E84;
+    width: 121px;
+    height: 409px;
+}
+.block2 {
+    position: absolute;
+    top: 0px;
+    left: 588px;
+    background-color: black;
+    width: 16px;
+    height: 910px;
+}
+.block3 {
+    position: absolute;
+    top: 265px;
+    left: 604px;
+    background-color: #BC4434;
+    width: 277px;
+    height: 183px;
+}
+.block4 {
+    position: absolute;
+    top: 397px;
+    left: 212px;
+    background-color: #E3BC31;
+    width: 530px;
+    height: 164px;
+}
+.block5 {
+    position: absolute;
+    top: 676px;
+    left: 64px;
+    background-color: #405E84;
+    width: 95px;
+    height: 95px;
+    border: 1px solid #405E84;
+    border-radius: 100px;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.block6 {
+    position: absolute;
+    top: 629px;
+    left: 912px;
+    background-color: black;
+    width: 385px;
+    height: 16px;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* слайд 1 */
+.header2{
+    position: absolute;
+    font-size: 97px;
+    line-height: 1.07;
+    font-weight: 100;
+}
+.header3 {
+    position: absolute;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 300;
+}
+#capital-letter1-1 {
+    top: 759px;
+    left: 709px;
+}
+#capital-letter1-2 {
+    top: 757.87px;
+    left: 792.94px;
+}
+#capital-letter1-3 {
+    top: 759px;
+    left: 857px;
+}
+#capital-letter1-4 {
+    top: 757.87px;
+    left: 921.52px;
+}
+#capital-letter1-5 {
+    top: 730px;
+    left: 1026px;
+    rotate: 17deg;
+}
+#capital-letter1-6 {
+    top: 795px;
+    left: 1087px;
+}
+#capital-letter1-7 {
+    top: 795px;
+    left: 1159px;
+}
+.block1-1 {
+    position: absolute;
+    top: 1084px;
+    left: -116px;
+    background-color: #BC4434;
+    width: 723px;
+    height: 138px;
+    rotate: -80deg;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block1-2 {
+    position: absolute;
+    top: 1098px;
+    left: 739px;
+    background-color: #405E84;
+    width: 15px;
+    height: 404px;
+    rotate: 158deg;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block1-3 {
+    position: absolute;
+    top: 1110px;
+    left: 265px;
+    background-color: #E3BC31;
+    width: 16px;
+    height: 423px;
+    rotate: 78deg;
+}
+.block1-4 {
+    position: absolute;
+    top: 937px;
+    left: 95px;
+    background-color: #FFF9E9;
+    width: 771px;
+    height: 216px;
+}
+#text-block1-4 {
+    top: 966px;
+    left: 119px;
+    width: 726px;
+    height: 176px;
+}
+.block1-5-1 {
+    position: absolute;
+    top: 1272px;
+    left: 983px;
+    background-color: #BC4434;
+    width: 254px;
+    height: 58px;
+    rotate: -42deg;
+}
+.block1-5 {
+    position: absolute;
+    top: 1182px;
+    left: 559px;
+    background-color: #FFF9E9;
+    width: 597px;
+    height: 201px; 
+}
+#text-block1-5 {
+    top: 1204px;
+    left: 573px;
+    width: 562px;
+    height: 160px;
+}
+.block1-6 {
+    position: absolute;
+    top: 1061px;
+    left: 992px;
+    background-color: #E3BC31;
+    width: 95px;
+    height: 95px;
+    border: 1px solid #E3BC31;
+    border-radius: 100px;
+    animation-name: bounce1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.block1-7 {
+    position: absolute;
+    top: 845px;
+    left: 557px;
+    background-color: #E3BC31;
+    width: 495px;
+    height: 16px;
+}
+.block1-8 {
+    position: absolute;
+    top: 799px;
+    left: 994px;
+    background-color: #E3BC31;
+    width: 16px;
+    height: 111px;
+}
+.block1-9 {
+    position: absolute;
+    top: 881px;
+    left: 1052px;
+    background-color: #BC4434;
+    width: 195px;
+    height: 58px;
+}
+/* слайд 2 */
+#capital-letter2-1 {
+    top: 1682px;
+    left: 48px;
+    rotate: -18deg;
+}
+#capital-letter2-2 {
+    top: 1661px;
+    left: 117px;
+    rotate: -18deg;
+}
+#capital-letter2-3 {
+    top: 1646px;
+    left: 167px;
+    rotate: -18deg;
+}
+#capital-letter2-4 {
+    top: 1580px;
+    left: 195px;
+    rotate: -39deg;
+}
+.capital-letter2-5 {
+    position: absolute;
+    top: 1554px;
+    left: 249px;
+    rotate: -14deg;
+    font-size: 74px;
+    font-weight: 100;
+
+}
+#capital-letter2-6 {
+    top: 1549px;
+    left: 293px;
+    rotate: -14deg;
+}
+#capital-letter2-7 {
+    top: 1536px;
+    left: 340px;
+    rotate: -14deg;
+}
+#capital-letter2-8 {
+    top: 1522px;
+    left: 392px;
+    rotate: -14deg;
+}
+#capital-letter2-9 {
+    top: 1548px;
+    left: 468px;
+    rotate: -18deg;
+}
+#capital-letter2-10 {
+    top: 1558px;
+    left: 554px;
+    rotate: 25deg;
+}
+.block2-1 {
+    position: absolute;
+    top: 1626px;
+    left: 252px;
+    background-color: #E3BC31;
+    width: 218px;
+    height: 46px;
+    rotate: -14deg;
+}
+.block2-2 {
+    position: absolute;
+    top: 1841px;
+    left: 159px;
+    background-color: #BC4434;
+    width: 347px;
+    height: 75px;
+    rotate: -14deg;
+}
+.block2-3 {
+    position: absolute;
+    top: 1702px;
+    left: 36px;
+    background-color: #405E84;
+    width: 522px;
+    height: 32px;
+    rotate: -18deg;
+}
+.block2-4 {
+    position: absolute;
+    top: 1772px;
+    left: 182px;
+    background-color: black;
+    width: 138px;
+    height: 75px;
+    rotate: -10deg;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block2-5 {
+    position: absolute;
+    top: 1866px;
+    left: 401px;
+    background-color: black;
+    width: 229px;
+    height: 75px;
+    rotate: -14deg;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block2-6 {
+    position: absolute;
+    top: 1981px;
+    left: 80px;
+    background-color: black;
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    border-radius: 100px;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.block2-7 {
+    position: absolute;
+    top: 1948px;
+    left: 884px;
+    background-color: #FFF9E9;
+    width: 95px;
+    height: 95px;
+    border: 16px solid #405E84;
+    border-radius: 100px;
+}
+.font-style1 {
+    position: absolute;
+    top: 1545px;
+    left: 648px;
+    font-weight: 100;
+    rotate: 8deg;
+    font-size: 40px;
+}
+.font-style2 {
+    position: absolute;
+    top: 1570px;
+    left: 907px;
+    font-weight: 150;
+    rotate: -2deg;
+    font-size: 37px;
+}
+.font-style3 {
+    position: absolute;
+    top: 1628px;
+    left: 641px;
+    font-weight: 200;
+    rotate: 16deg;
+    font-size: 35px;
+}
+.font-style4 {
+    position: absolute;
+    top: 1650px;
+    left: 920px;
+    font-weight: 250;
+    rotate: -8deg;
+    font-size: 31px;
+}
+.font-style5 {
+    position: absolute;
+    top: 1717px;
+    left: 640px;
+    font-weight: 300;
+    rotate: 18deg;
+    font-size: 35px;
+}
+.font-style6 {
+    position: absolute;
+    top: 1735px;
+    left: 924px;
+    font-weight: 350;
+    rotate: -6deg;
+    font-size: 29px;
+}
+.font-style7 {
+    position: absolute;
+    top: 1822px;
+    left: 681px;
+    font-weight: 400;
+    rotate: 26deg;
+    font-size: 33px;
+}
+.font-style8 {
+    position: absolute;
+    top: 1831px;
+    left: 917px;
+    font-weight: 450;
+    rotate: -20deg;
+    font-size: 31px;
+}
+.font-style9 {
+    position: absolute;
+    top: 1974px;
+    left: 660px;
+    font-weight: 500;
+    rotate: 29deg;
+    font-size: 35px;
+}
+.font-style10 {
+    position: absolute;
+    top: 1956px;
+    left: 925px;
+    font-weight: 550;
+    rotate: -34deg;
+    font-size: 30px;
+}
+/* слайд 3 */
+#capital-letter3-1 {
+    top: 2243px;
+    left: 586px;
+    rotate: 18deg;
+}
+#capital-letter3-2 {
+    top: 2261px;
+    left: 648px;
+    rotate: 18deg;
+}
+#capital-letter3-3 {
+    top: 2277px;
+    left: 693px;
+    rotate: 18deg;
+}
+#capital-letter3-4 {
+    top: 2294px;
+    left: 747px;
+    rotate: 18deg;
+}
+#capital-letter3-5 {
+    top: 2311px;
+    left: 799px;
+    rotate: 18deg;
+}
+#capital-letter3-6 {
+    top: 2230px;
+    left: 829px;
+    rotate: -8deg;
+}
+#capital-letter3-7 {
+    top: 2246px;
+    left: 895px;
+    rotate: 18deg;
+}
+#capital-letter3-8 {
+    top: 2263px;
+    left: 952px;
+    rotate: 18deg;
+}
+#capital-letter3-9 {
+    top: 2206px;
+    left: 1023px;
+}
+#capital-letter3-10 {
+    top: 2207px;
+    left: 1074px;
+}
+#capital-letter3-11 {
+    top: 2250px;
+    left: 1124px;
+    rotate: 18deg;
+}
+.block3-1 {
+    position: absolute;
+    top: 2293px;
+    left: 1027px;
+    background-color: #BC4434;
+    width: 92px;
+    height: 66px;
+}
+.block3-2 {
+    position: absolute;
+    top: 2294px;
+    left: 866px;
+    background-color: black;
+    width: 289px;
+    height: 174px;
+    rotate: 18deg;
+}
+.block3-3 {
+    position: absolute;
+    top: 2261px;
+    left: 857px;
+    background-color: #FFF9E9;
+    width: 161px;
+    height: 74px;
+    rotate: 18deg;
+}
+.block3-4 {
+    position: absolute;
+    top: 2388px;
+    left: 560px;
+    background-color: #405E84;
+    width: 452px;
+    height: 52px;
+    rotate: 18deg;
+}
+.block3-5 {
+    position: absolute;
+    top: 2443px;
+    left: 1022px;
+    background-color: #405E84;
+    width: 182px;
+    height: 52px;
+    rotate: 18deg;
+}
+.block3-6 {
+    position: absolute;
+    top: 2145px;
+    left: 64px;
+    background-color: #BC4434;
+    width: 27px;
+    height: 386px;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block3-7 {
+    position: absolute;
+    top: 2297px;
+    left: 985px;
+    background-color: #BC4434;
+    width: 16px;
+    height: 821px;
+    rotate: -120deg;
+    animation: wobble 2s infinite;
+}
+.block3-8 {
+    position: absolute;
+    top: 2733px;
+    left: 1089px;
+    background-color: #E3BC31;
+    width: 95px;
+    height: 95px;
+    border: 1px solid #E3BC31;
+    border-radius: 100px;
+    animation-name: bounce1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.block3-9 {
+    position: absolute;
+    top: 2260px;
+    left: 230px;
+    background-color: #E3BC31;
+    width: 136px;
+    height: 136px;
+    border: 1px solid #E3BC31;
+    border-radius: 100px;
+}
+.block3-10 {
+    position: absolute;
+    top: 2587px;
+    left: 436px;
+    background-color: #E3BC31;
+    width: 195px;
+    height: 195px;
+    border: 1px solid #E3BC31;
+    border-radius: 100px;
+}
+.block3-11 {
+    position: absolute;
+    top: 2657px;
+    left: 175px;
+    background-color: #E3BC31;
+    width: 107px;
+    height: 107px;
+    border: 1px solid #E3BC31;
+    border-radius: 100px;
+}
+.letter1 {
+    position: absolute;
+    top: 2272px;
+    left: 176px;
+    font-weight: 400;
+    font-size: 230px;
+    line-height: 1.07;
+}
+.letter2 {
+    position: absolute;
+    top: 2463px;
+    left: 492px;
+    font-weight: 100;
+    font-size: 280px;
+    line-height: 1.07;
+}
+.letter3 {
+    position: absolute;
+    top: 2614px;
+    left: 120px;
+    font-weight: 450;
+    font-size: 210px;
+    line-height: 1.07;
+}
+.header3-1 {
+    position: absolute;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.07;
+}
+.header3-2 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.07;
+}
+.header3-3 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.07;
+}
+#letter1-1 {
+    top: 2244px;
+    left: 238px;
+    rotate: -38deg;
+}
+#letter1-2 {
+    top: 2232px;
+    left: 260px;
+    rotate: -17deg;
+}
+#letter1-3 {
+    top: 2228px;
+    left: 292px;
+}
+#letter1-4 {
+    top: 2232px;
+    left: 315px;
+    rotate: 17deg;
+}
+#letter1-5 {
+    top: 2241px;
+    left: 334px;
+    rotate: 40deg;
+}
+#letter2-1 {
+    top: 2673px;
+    left: 416px;
+    rotate: -90deg;
+}
+#letter2-2 {
+    top: 2652px;
+    left: 416px;
+    rotate: -84deg;
+}
+#letter2-3 {
+    top: 2634px;
+    left: 423px;
+    rotate: -76deg;
+}
+#letter2-4 {
+    top: 2616px;
+    left: 429px;
+    rotate: -65deg;
+}
+#letter2-5 {
+    top: 2600px;
+    left: 439px;
+    rotate: -52deg;
+}
+#letter2-6 {
+    top: 2583px;
+    left: 455px;
+    rotate: -42deg;
+}
+#letter2-7 {
+    top: 2569px;
+    left: 475px;
+    rotate: -28deg;
+}
+#letter3-1 {
+    top: 2642px;
+    left: 205px;
+    rotate: -15deg;
+}
+#letter3-2 {
+    top: 2640px;
+    left: 218px;
+    rotate: -8deg;
+}
+#letter3-3 {
+    top: 2640px;
+    left: 231px;
+    rotate: 2deg;
+}
+#letter3-4 {
+    top: 2644px;
+    left: 244px;
+    rotate: 20deg;
+}
+#letter3-5 {
+    top: 2649px;
+    left: 255px;
+    rotate: 33deg;
+}
+#letter3-6 {
+    top: 2655px;
+    left: 262px;
+    rotate: 46deg;
+}
+#letter3-7 {
+    top: 2664px;
+    left: 270px;
+    rotate: 53deg;
+}
+#letter3-8 {
+    top: 2676px;
+    left: 277px;
+    rotate: 67deg;
+}
+#letter3-9 {
+    top: 2691px;
+    left: 281px;
+    rotate: 83deg;
+}
+#letter3-10 {
+    top: 2703px;
+    left: 283px;
+    rotate: 96deg;
+}
+/* слайд 4 */
+.block4-1 {
+    position: absolute;
+    top: 2916px;
+    left: 45px;
+    background-color: black;
+    width: 212px;
+    height: 113px;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block4-2 {
+    position: absolute;
+    top: 3469px;
+    left: 1042px;
+    background-color: black;
+    width: 195px;
+    height: 68px;
+    rotate: -25deg;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block4-3 {
+    position: absolute;
+    top: 3476px;
+    left: 78px;
+    background-color: #FFF9E9;
+    width: 154px;
+    height: 154px;
+    border: 20px solid #BC4434;
+    border-radius: 100px;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.alphabet-triangle {
+    position: absolute;
+    background-image: url('imeg/treu5.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 85px;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 1.07;
+    padding-left: 29px;
+    padding-top: 26px;
+    transition: scale 0.2s ease;
+}
+.alphabet-triangle:hover {
+    scale: 2;
+}
+.alphabet-square {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #E3BC31;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.07;
+    transition: scale 0.2s ease;
+}
+.alphabet-square:hover {
+    scale: 2;
+}
+.alphabet-circle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    background-color: #BC4434;
+    width: 67px;
+    height: 67px;
+    border: 1px solid #BC4434;
+    border-radius: 100px;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.07;
+    padding-top: 5px;
+    transition: scale 0.2s ease;
+}
+.alphabet-circle:hover {
+    scale: 2;
+}
+#alpblock1 {
+    top: 3012px;
+    left: 171px;
+    rotate: -26deg;
+}
+#alpblock2 {
+    top: 3019px;
+    left: 287px;
+}
+#alpblock3 {
+    top: 3013px;
+    left: 378px;
+}
+#alpblock4 {
+    top: 3019px;
+    left: 480px;
+    rotate: 16deg;
+}
+#alpblock5 {
+    top: 3019px;
+    left: 578px;
+}
+#alpblock6 {
+    top: 3019px;
+    left: 675px;
+}
+#alpblock7 {
+    top: 3015px;
+    left: 770px;
+}
+#alpblock8 {
+    top: 3019px;
+    left: 867px;
+    rotate: -15deg;
+}
+#alpblock9 {
+    top: 3013px;
+    left: 954px;
+}
+#alpblock10 {
+    top: 3019px;
+    left: 1061px;
+}
+#alpblock11 {
+    top: 3106px;
+    left: 156px;
+}
+#alpblock12 {
+    top: 3107px;
+    left: 244px;
+}
+#alpblock13 {
+    top: 3100px;
+    left: 333px;
+}
+#alpblock14 {
+    top: 3107px;
+    left: 438px;
+    rotate: -7deg;
+}
+#alpblock15 {
+    top: 3106px;
+    left: 535px;
+}
+#alpblock16 {
+    top: 3107px;
+    left: 632px;
+}
+#alpblock17 {
+    top: 3100px;
+    left: 719px;
+    rotate: 7deg;
+}
+#alpblock18 {
+    top: 3107px;
+    left: 826px;
+}
+#alpblock19 {
+    top: 3101px;
+    left: 925px;
+}
+#alpblock20 {
+    top: 3107px;
+    left: 1020px;
+}
+#alpblock21 {
+    top: 3194px;
+    left: 208px;
+}
+#alpblock22 {
+    top: 3194px;
+    left: 305px;
+    rotate: 10deg;
+}
+#alpblock23 {
+    top: 3188px;
+    left: 397px;
+}
+#alpblock24 {
+    top: 3194px;
+    left: 498px;
+}
+#alpblock25 {
+    top: 3188px;
+    left: 579px;
+}
+#alpblock26 {
+    top: 3194px;
+    left: 692px;
+    rotate: -12deg;
+}
+#alpblock27 {
+    top: 3188px;
+    left: 785px;
+}
+#alpblock28 {
+    top: 3194px;
+    left: 886px;
+}
+#alpblock29 {
+    top: 3194px;
+    left: 983px;
+}
+#alpblock30 {
+    top: 3188px;
+    left: 1069px;
+    rotate: 8deg;
+}
+#alpblock31 {
+    top: 3273px;
+    left: 127px;
+}
+#alpblock32 {
+    top: 3277px;
+    left: 233px;
+}
+#alpblock33 {
+    top: 3281px;
+    left: 333px;
+}
+#alpblock34 {
+    top: 3281px;
+    left: 430px;
+    rotate: -18deg;
+}
+#alpblock35 {
+    top: 3277px;
+    left: 525px;
+}
+#alpblock36 {
+    top: 3281px;
+    left: 624px;
+}
+#alpblock37 {
+    top: 3281px;
+    left: 722px;
+}
+#alpblock38 {
+    top: 3271px;
+    left: 805px;
+    rotate: -9deg;
+}
+#alpblock39 {
+    top: 3281px;
+    left: 916px;
+}
+#alpblock40 {
+    top: 3277px;
+    left: 1012px;
+}
+#alpblock41 {
+    top: 3362px;
+    left: 198px;
+    rotate: 18deg;
+}
+#alpblock42 {
+    top: 3363px;
+    left: 292px;
+}
+#alpblock43 {
+    top: 3360px;
+    left: 386px;
+}
+#alpblock44 {
+    top: 3363px;
+    left: 486px;
+}
+#alpblock45 {
+    top: 3354px;
+    left: 574px;
+    padding-left: 40px;
+}
+#alpblock46 {
+    top: 3363px;
+    left: 679px;
+    rotate: 13deg;
+}
+#alpblock47 {
+    top: 3364px;
+    left: 776px;
+}
+#alpblock48 {
+    top: 3363px;
+    left: 873px;
+}
+#alpblock49 {
+    top: 3363px;
+    left: 970px;
+    rotate: -11deg;
+}
+#alpblock50 {
+    top: 3363px;
+    left: 1067px;
+}
+#alpblock51 {
+    top: 3448px;
+    left: 154px;
+}
+#alpblock52 {
+    top: 3448px;
+    left: 251px;
+}
+#alpblock53 {
+    top: 3448px;
+    left: 335px;
+}
+#alpblock54 {
+    top: 3448px;
+    left: 445px;
+    rotate: -14deg;
+}
+#alpblock55 {
+    top: 3448px;
+    left: 540px;
+}
+#alpblock56 {
+    top: 3448px;
+    left: 638px;
+}
+#alpblock57 {
+    top: 3448px;
+    left: 735px;
+}
+#alpblock58 {
+    top: 3443px;
+    left: 822px;
+    rotate: 12deg;
+}
+#alpblock59 {
+    top: 3448px;
+    left: 932px;
+}
+#alpblock60 {
+    top: 3448px;
+    left: 1026px;
+}
+/* слайд 5 */
+.block5-1 {
+    position: absolute;
+    top: 3506px;
+    left: 369px;
+    background-color: #BC4434;
+    width: 20px;
+    height: 536px;
+    rotate: 86deg;
+}
+.block5-2 {
+    position: absolute;
+    top: 3832px;
+    left: 806px;
+    background-color: #BC4434;
+    width: 458px;
+    height: 130px;
+    rotate: -78deg;
+}
+.block5-3 {
+    position: absolute;
+    top: 3712px;
+    left: 336px;
+    background-color: #E3BC31;
+    width: 97px;
+    height: 246px;
+    rotate: 40deg;
+}
+.block5-4 {
+    position: absolute;
+    top: 3839px;
+    left: 450px;
+    background-color: #E3BC31;
+    width: 44px;
+    height: 107px;
+    rotate: 40deg;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block5-5 {
+    position: absolute;
+    top: 3948px;
+    left: 198px;
+    background-color: #E3BC31;
+    width: 97px;
+    height: 99px;
+    rotate: 40deg;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block5-6 {
+    position: absolute;
+    top: 4090px;
+    left: 162px;
+    background-color: #E3BC31;
+    width: 66px;
+    height: 37px;
+    rotate: 24deg;
+}
+.block5-7 {
+    position: absolute;
+    top: 3989px;
+    left: 304px;
+    background-color: black;
+    width: 176px;
+    height: 234px;
+    rotate: 40deg;
+}
+.block5-8 {
+    position: absolute;
+    top: 4144px;
+    left: 457px;
+    background-color: black;
+    width: 97px;
+    height: 158px;
+    rotate: 40deg;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block5-9 {
+    position: absolute;
+    top: 4209px;
+    left: 598px;
+    background-color: black;
+    width: 97px;
+    height: 101px;
+    rotate: 40deg;
+}
+.block5-10 {
+    position: absolute;
+    top: 4151px;
+    left: 146px;
+    background-color: #405E84;
+    width: 20px;
+    height: 186px;
+    rotate: 120deg;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block5-11 {
+    position: absolute;
+    top: 4058px;
+    left: 627px;
+    background-color: #405E84;
+    width: 20px;
+    height: 106px;
+    rotate: 130deg;
+}
+.block5-12 {
+    position: absolute;
+    top: 3795px;
+    left: 841px;
+    background-color: #405E84;
+    width: 193px;
+    height: 71px;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.block5-13 {
+    position: absolute;
+    top: 3894px;
+    left: 1017px;
+    background-color: #E3BC31;
+    width: 178px;
+    height: 54px;
+    rotate: -12deg;
+}
+.block5-14 {
+    position: absolute;
+    top: 4001px;
+    left: 966px;
+    background-color: #405E84;
+    width: 283px;
+    height: 72px;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#capital-letter5-1 {
+    top: 3687px;
+    left: 206px;
+    rotate: -3deg;
+}
+#capital-letter5-2 {
+    top: 3683px;
+    left: 282px;
+    rotate: -3deg;
+}
+#capital-letter5-3 {
+    top: 3661px;
+    left: 342px;
+    rotate: -50deg;
+}
+#capital-letter5-4 {
+    top: 3668px;
+    left: 479px;
+    rotate: -3deg;
+}
+#capital-letter5-5 {
+    top: 3664px;
+    left: 547px;
+    rotate: -3deg;
+}
+#text-block5 {
+    top: 3779px;
+    left: 516px;
+    width: 244px;
+    height: 78px;
+}
+.text-block5-1 {
+    position: absolute;
+    top: 3795px;
+    left: 853px;
+    width: 169px;
+    height: 75px;
+    font-weight: 550;
+    color: white;
+    font-size: 55px;
+    line-height: 1.07;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.text-block5-2 {
+    position: absolute;
+    top: 3898px;
+    left: 1030px;
+    width: 155px;
+    height: 49px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.07;
+    rotate: -13deg;
+}
+.text-block5-3 {
+    position: absolute;
+    top: 3921px;
+    left: 797px;
+    width: 144px;
+    height: 53px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.07;
+    rotate: 21deg;
+}
+.text-block5-4 {
+    position: absolute;
+    top: 4008px;
+    left: 979px;
+    width: 257px;
+    height: 65px;
+    font-weight: 350;
+    font-size: 50px;
+    line-height: 1.07;
+    color: white;
+    animation-name: wobble1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.text-block5-5 {
+    position: absolute;
+    top: 4131px;
+    left: 770px;
+    width: 203px;
+    height: 72px;
+    font-weight: 250;
+    font-size: 55px;
+    line-height: 1.07;
+    rotate: -7deg;
+    animation-name: wobble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.text-block5-6 {
+    position: absolute;
+    top: 4150px;
+    left: 1047px;
+    width: 136px;
+    height: 78px;
+    font-weight: 350;
+    font-size: 60px;
+    line-height: 1.07;
+}
+/* слайд 6 */
+.block6-1 {
+    position: absolute;
+    top: 4315px;
+    left: 1093px;
+    background-color: #405E84;
+    width: 95px;
+    height: 95px;
+    border: 1px solid #405E84;
+    border-radius: 100px;
+    animation-name: bounce1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.block6-2 {
+    position: absolute;
+    top: 4479px;
+    left: 535px;
+    background-color: #E3BC31;
+    width: 306px;
+    height: 314px;
+}
+.block6-3 {
+    position: absolute;
+    top: 4663px;
+    left: 640px;
+    background-color: #BC4434;
+    width: 88px;
+    height: 245px;
+    rotate: 25deg;
+}
+.block6-4 {
+    position: absolute;
+    top: 4568px;
+    left: 713px;
+    background-color: #405E84;
+    width: 351px;
+    height: 195px;
+}
+.block6-5 {
+    position: absolute;
+    top: 4533px;
+    left: 129px;
+    background-color: #FFF9E9;
+    width: 490px;
+    height: 221px;
+}
+.block6-6 {
+    position: absolute;
+    top: 4440px;
+    left: 952px;
+    background-color: black;
+    width: 27px;
+    height: 701px;
+}
+.block6-7 {
+    position: absolute;
+    top: 4740px;
+    left: 739px;
+    background-color: black;
+    width: 19px;
+    height: 646px;
+    rotate: 78deg;
+}
+#capital-letter6-1 {
+    top: 4393px;
+    left: 535px;
+}
+#capital-letter6-2 {
+    top: 4393px;
+    left: 604px;
+}
+#capital-letter6-3 {
+    top: 4393px;
+    left: 672px;
+}
+#capital-letter6-4 {
+    top: 4392px;
+    left: 722px;
+}
+#capital-letter6-5 {
+    top: 4393px;
+    left: 777px;
+}
+#capital-letter6-6 {
+    top: 4392px;
+    left: 853px;
+    rotate: 9deg;
+}
+.capital-letter6-7 {
+    position: absolute;
+    top: 4458px;
+    left: 884px;
+    font-size: 97px;
+    line-height: 1.07;
+    font-weight: 100;
+}
+#capital-letter6-8 {
+    top: 4482px;
+    left: 980px;
+}
+#text-block6-1 {
+    top: 4559px;
+    left: 151px;
+    width: 439px;
+    height: 177px;
+}
+.ligature {
+    position: absolute;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 1.07;
+}
+#ligature6-1 {
+    top: 4762px;
+    left: 855px;
+    rotate: -14deg;
+}
+#ligature6-2 {
+    top: 4878px;
+    left: 841px;
+    rotate: 16deg;
+}
+#ligature6-3 {
+    top: 4935px;
+    left: 758px;
+    rotate: -12deg;
+}
+#ligature6-4 {
+    top: 4953px;
+    left: 668px;
+    rotate: -12deg;
+}
+#ligature6-5 {
+    top: 4975px;
+    left: 568px;
+    rotate: -12deg;
+}
+#ligature6-6 {
+    top: 4996px;
+    left: 468px;
+    rotate: -12deg;
+}
+#ligature6-7 {
+    top: 5101px;
+    left: 323px;
+    rotate: -39deg;
+}
+#ligature-anim1 {
+    top: 4654px;
+    left: 855px;
+    animation-name: ligat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#ligature-anim2 {
+    top: 4654px;
+    left: 855px;
+    animation-name: ligat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.8s;
+}
+#ligature-anim3 {
+    top: 4654px;
+    left: 855px;
+    animation-name: ligat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+}
+#ligature-anim4 {
+    top: 4654px;
+    left: 855px;
+    animation-name: ligat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2.2s;
+}
+/* слайд 7 */
+.footer {
+    position: absolute;
+    overflow: hidden;
+    top: 5286px;
+    left: 0px;
+    background-color: black;
+    width: 1290px;
+    height: 158px;
+}
+.footer-information {
+    position: absolute;
+    font-size: 39px;
+    font-weight: 300;
+    line-height: 1.07;
+    color: white;
+}
+#footer-information1 {
+    top: 33px;
+    left: 41px;
+}
+#footer-information2 {
+    top: 33px;
+    left: 540px;
+}
+#footer-information3 {
+    top: 33px;
+    left: 1138px;
+}
+.footer-letter7 {
+    position: absolute;
+    font-size: 97px;
+    font-weight: 300;
+    line-height: 1.07; 
+    color: white;
+    top: 84px;
+    left: 162px;
+    width: 950px;
+    height: 74px;
+}
